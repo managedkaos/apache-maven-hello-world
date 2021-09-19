@@ -1,3 +1,5 @@
+![maven](https://github.com/managedkaos/apache-maven-hello-world/actions/workflows/maven.yml/badge.svg)
+
 # Apache Maven 'Hello World!"
 This is a small project for demonstrating the Apache Maven build management tool.
 
