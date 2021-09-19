@@ -38,7 +38,7 @@ mvn package
 ## Testing the Project with Java
 The project includes a [very simple test](src/test/java/com/learningjenkins/AppTest.java) that demonstrates an assertion that will always pass.
 
-To test the packaged code, run the following command:
+To test the packaged code, build the code and run the following command inside the repo:
 
 ```
 java -cp target/hello-1.0-SNAPSHOT.jar com.learningjenkins.App
