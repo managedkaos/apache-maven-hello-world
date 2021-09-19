@@ -11,9 +11,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 11
@@ -24,3 +22,10 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test the package
+      run: java -cp target/hello-1.0-SNAPSHOT.jar com.learningjenkins.App
+
+
