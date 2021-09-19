@@ -41,7 +41,6 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-        cache: maven
 
     - name: Download the package
       uses: actions/download-artifact@v2
